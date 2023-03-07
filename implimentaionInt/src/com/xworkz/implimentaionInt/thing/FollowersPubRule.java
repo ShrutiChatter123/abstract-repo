@@ -31,5 +31,10 @@ public class FollowersPubRule implements PubRule {
 		System.out.println("Running pair rule in PubRule");
 		return true;
 	}
+	@Override
+	public String toString() {
+		return "visitInEvening"+this.visitInEvening()+"dressCode"+this.dressCode()+"drinkWaterInPop"+this.drinkWaterInPop()
+		+"timingPerHead"+this.timingPerHead()+"pairRule"+this.pairRule();
+	}
 
 }

@@ -1,5 +1,6 @@
 package com.xworkz.implimentaionInt.boot;
 
+import com.xworkz.implimentaionInt.thing.FamilyRule;
 import com.xworkz.implimentaionInt.thing.Members;
 
 public class FamilyRuleRunner {
@@ -45,6 +46,22 @@ public class FamilyRuleRunner {
 		System.out.println(boo);
 		
 
+		FamilyRule rule=new Members();
+		System.out.println(rule.wakeUpTime());
+		System.out.println(rule.sleepOnTime());
+		System.out.println(rule.respectTo());
+		System.out.println(rule.careFor());
+		System.out.println(rule.pray());
+		System.out.println(rule.beingIndependent());
+		System.out.println(rule.minMembers());
+		System.out.println(rule.lunchTime());
+		System.out.println(rule.breakfastTime());
+		System.out.println(rule.unity());
+		System.out.println(rule.attendFamilyFunction());
+		System.out.println(rule.limitTime());
+		System.out.println(rule.friendsMaking());
+		System.out.println(rule.friendlyWithAll());
+		System.out.println(rule.attendClass());
 	}
 
 }

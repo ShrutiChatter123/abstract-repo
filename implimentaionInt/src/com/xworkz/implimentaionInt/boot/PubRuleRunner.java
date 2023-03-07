@@ -1,6 +1,7 @@
 package com.xworkz.implimentaionInt.boot;
 
 import com.xworkz.implimentaionInt.thing.FollowersPubRule;
+import com.xworkz.implimentaionInt.thing.PubRule;
 
 public class PubRuleRunner {
 
@@ -21,6 +22,14 @@ public class PubRuleRunner {
 		String to = follow.toString();
 		System.out.println(to);
 	
+		
+		PubRule roo=new FollowersPubRule();
+		System.out.println(roo.visitInEvening());
+		System.out.println(roo.dressCode());
+		System.out.println(roo.drinkWaterInPop());
+		System.out.println(roo.timingPerHead());
+		System.out.println(roo.pairRule());
+		
 
 	}
 

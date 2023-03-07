@@ -92,4 +92,14 @@ public class Members implements FamilyRule {
 		return null;
 	}
 
+	
+	@Override
+	public String toString() {
+		return "wakeUpTime"+this.wakeUpTime()+"sleepOnTime"+this.sleepOnTime()+"respectTo"+this.respectTo()
+		+"careFor"+this.careFor()+"pray"+this.pray()+"beingIndependent"+this.beingIndependent()
+		+"minMembers"+this.minMembers()+"lunchTime"+this.lunchTime()+"breakfastTime"+this.breakfastTime()
+		+"unity"+this.unity()+"attendFamilyFunction"+this.attendFamilyFunction()+"limitTime"+this.limitTime()
+		+"friendsMaking"+this.friendsMaking()+"friendlyWithAll"+this.friendlyWithAll()+"attendClass+"+this.attendClass();
+	}
+	
 }

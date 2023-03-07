@@ -1,5 +1,6 @@
 package com.xworkz.implimentaionInt.boot;
 
+import com.xworkz.implimentaionInt.thing.HospitalRule;
 import com.xworkz.implimentaionInt.thing.Peoples;
 
 public class HospitaRunner {
@@ -30,6 +31,21 @@ public class HospitaRunner {
 		System.out.println(hashcode);
 		String str = pepl.toString();
 		System.out.println(str);
+		
+		
+		HospitalRule hos=new Peoples();
+		System.out.println(hos.workingwithPeople());
+		System.out.println(hos.behaviour());
+		System.out.println(hos.caring());
+		System.out.println(hos.dontTouchBeds());
+		System.out.println(hos.dontTouchEquipments());
+		System.out.println(hos.dontUsePlastic());
+		System.out.println(hos.unnecessaryArguments());
+		System.out.println(hos.cleanEnvoirnment());
+		System.out.println(hos.montlySalaryToWorkers());
+		System.out.println(hos.cardValidation());
+	
+		
 
 	}
 }

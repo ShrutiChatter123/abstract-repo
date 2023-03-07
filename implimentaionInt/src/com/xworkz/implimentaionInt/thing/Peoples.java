@@ -61,5 +61,12 @@ public class Peoples implements HospitalRule {
 		System.out.println("Running caed in HospitalRule");
 		return "GovernmentRelated";
 	}
+	@Override
+	public String toString() {
+		return "workingwithPeople"+this.workingwithPeople()+"behaviour"+this.behaviour()+"caring"+this.caring()
+		+"dontTouchEquipments"+this.dontTouchEquipments()+"dontTouchBeds"+this.dontTouchBeds()+"dontUsePlastic"+this.dontUsePlastic()
+		+"unnecessaryArguments"+this.unnecessaryArguments()+"cleanEnvoirnment"+this.cleanEnvoirnment()
+		+"montlySalaryToWorkers"+this.montlySalaryToWorkers()+"cardValidation"+this.cardValidation();
+	}
 
 }

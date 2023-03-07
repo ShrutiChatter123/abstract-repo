@@ -49,5 +49,12 @@ public class Junction implements RailwayStation {
 		System.out.println("Running tickets in RailwayStation");
 		return 660.55D;
 	}
+	@Override
+	public String toString() {
+		return "loudSound"+this.loudSound()+"luggage"+this.luggage()+"middleBerth"+this.middleBerth()
+		+"chainPulling"+this.chainPulling()+"journeyExtension"+this.journeyExtension()
+		+"afterTimeRule"+this.afterTimeRule()+"twoStationBoarding"+this.twoStationBoarding()
+		+"waitListTicket"+this.waitListTicket();
+	}
 
 }

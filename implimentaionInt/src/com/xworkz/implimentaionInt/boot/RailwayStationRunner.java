@@ -1,6 +1,7 @@
 package com.xworkz.implimentaionInt.boot;
 
 import com.xworkz.implimentaionInt.thing.Junction;
+import com.xworkz.implimentaionInt.thing.RailwayStation;
 
 public class RailwayStationRunner {
 
@@ -28,6 +29,15 @@ public class RailwayStationRunner {
 		String st = junc.toString();
 		System.out.println(st);
 	
+		RailwayStation stn=new Junction();
+		System.out.println(stn.loudSound());
+		System.out.println(stn.luggage());
+		System.out.println(stn.middleBerth());
+		System.out.println(stn.chainPulling());
+		System.out.println(stn.journeyExtension());
+		System.out.println(stn.afterTimeRule());
+		System.out.println(stn.twoStationBoarding());
+		System.out.println(stn.waitListTicket());
 		
 		
 

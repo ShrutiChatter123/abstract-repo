@@ -58,10 +58,18 @@ public class SystemsInCode implements CodingRule {
 
 	@Override
 	public int reduceAccelerationCost() {
-	System.out.println("Running reduceAccelerationCost in CodingRule ");
+		System.out.println("Running reduceAccelerationCost in CodingRule ");
 		return 444;
 	}
 
-	
-	
+	@Override
+	public String toString() {
+		return "[Safe" + this.safe() + "][Secure" + this.secure() + "reliable" + this.reliable() + "tastsble"
+				+ this.tastsble() + "maintainable" + this.maintainable() + "portable" + this.portable()
+				+ "complianceWithIndustry" + this.complianceWithIndustry() + "codeQuality" + this.codeQuality()
+				+ "reduceAccelerationTime" + this.reduceAccelerationTime() + "reduceAccelerationCost"
+				+ this.reduceAccelerationCost();
+
+	}
+
 }
