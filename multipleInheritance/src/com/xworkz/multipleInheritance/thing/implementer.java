@@ -1,6 +1,6 @@
 package com.xworkz.multipleInheritance.thing;
 
-public class implementer extends AbstractInfo implements PassPortRule,DubaiVisaRule,Developer {
+public class implementer extends AbstractInfo implements PassPortRule,DubaiVisaRule {
 
 	@Override
 	public boolean followStanderds() {
@@ -41,5 +41,6 @@ public class implementer extends AbstractInfo implements PassPortRule,DubaiVisaR
 	public boolean jail() {
 		return false;
 	}
+	
 
 }

@@ -1,7 +1,10 @@
 package com.xworkz.multipleInheritance.thing;
 
-public interface Developer {
+public abstract class Developer {
 
 	abstract boolean followStanderds();
 	abstract boolean underStandingConcepts();
+	
+	
+	
 }

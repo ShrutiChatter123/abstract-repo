@@ -7,8 +7,9 @@ public class ImplementRunner {
 	public static void main(String[] args) {
 
 		implementer imp=new implementer();
-	
-		System.out.println(imp.citizen());
+	     String ref=imp.citizen();
+		 System.out.println(ref);
+		 
 		System.out.println(imp.criminalRecord());
 		System.out.println(imp.followStanderds());
 		System.out.println(imp.jail());
