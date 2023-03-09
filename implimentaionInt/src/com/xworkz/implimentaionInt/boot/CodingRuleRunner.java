@@ -51,7 +51,13 @@ public class CodingRuleRunner {
 		System.out.println(rule.codeQuality());
 		System.out.println(rule.reduceAccelerationTime());
 		System.out.println(rule.reduceAccelerationCost());
+		
+		
+		Object obj=new SystemsInCode();
+		SystemsInCode systemsInCode=(SystemsInCode)obj;
+		systemsInCode.getClass();
 
 	}
+	
 
 }

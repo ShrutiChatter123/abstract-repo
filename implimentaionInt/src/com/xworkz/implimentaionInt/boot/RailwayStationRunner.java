@@ -28,6 +28,16 @@ public class RailwayStationRunner {
 		System.out.println(hashcode);
 		String st = junc.toString();
 		System.out.println(st);
+		
+		String s1="hello";
+		String s2="hello";
+		boolean ref=s1.equals(s2);
+		System.out.println(ref);
+		 boolean tr=junc.equals(s2);
+		System.out.println(tr);
+		junc.getClass();
+		System.out.println(junc.getClass());
+		
 	
 		RailwayStation stn=new Junction();
 		System.out.println(stn.loudSound());
